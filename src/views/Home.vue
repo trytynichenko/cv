@@ -33,7 +33,7 @@ export default {
           'This online version of my resume was created as an experiment to learning Vue.js from scratch. For development, I\'ve used manually configured vue-cli with the following features: Router, SCSS/SASS Pre-processors, ESLint + Airbnb config, Unit Testing on Jest and E2E Testing on Cypress.',
         ],
         html: [
-          'Source code are available on <a href="https://github.com/trytynichenko/trytynichenko.github.io" target="_blank">GitHub</a>.',
+          'Source code are available on <a href="https://github.com/trytynichenko/cv" target="_blank">GitHub</a>.',
         ],
       },
       {
