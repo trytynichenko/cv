@@ -1,0 +1,26 @@
+@import '../partials/globals';
+@import '../partials/mixins';
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  &__category {
+    &__label {
+      font-weight: 700;
+      text-transform: uppercase;
+      @include thirteen {
+        font-size: 0.9rem;
+      }
+      @include mobile {
+        font-size: 0.7rem;
+      }
+    }
+    &__item {
+      margin: 3px 0;
+      font-size: 0.9rem;
+      @include thirteen {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

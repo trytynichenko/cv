@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lines.vue matches snapshot 1`] = `
+<div class="lines">
+    <div class="line">
+        <div class="line__row">
+            <div class="line__title">title 1</div>
+            <div class="line__date">2018</div>
+        </div>
+        <div class="line__description">content 1</div>
+    </div>
+    <div class="line">
+        <div class="line__row">
+            <div class="line__title">title 2</div>
+            <div class="line__date">2018</div>
+        </div>
+        <div class="line__description">content 2</div>
+    </div>
+</div>
+`;

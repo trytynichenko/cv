@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Greeting.vue matches snapshot 1`] = `
+<div class="greeting block">
+    <div class="title">
+        <h1>Hi,
+            <img src="../assets/images/v.png">
+        </h1>
+        <h2>
+            I am <strong>Bob</strong>, a Front-end &amp; WordPress software engineer. I have 8+ years commercial experience working with clients from around the world, focused on building beautiful interfaces and providing responsive front-end development
+            and WordPress websites.
+        </h2>
+    </div>
+</div>
+`;

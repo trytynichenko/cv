@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer.vue matches snapshot 1`] = `
+<footer class="footer block">
+    <p>Made with
+        <img src="../assets/images/fire.png"> by Bob © 2018</p>
+    <p></p>
+</footer>
+`;

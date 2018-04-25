@@ -1,0 +1,13 @@
+.line {
+  margin-bottom: 25px;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    font-weight: 700;
+  }
+  &__date {
+    font-size: 0.9rem;
+  }
+}
