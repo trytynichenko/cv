@@ -12,6 +12,7 @@
     "deploy": "yarn lint && yarn test && yarn e2e && yarn build && gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "vue": "^2.5.13",
     "vue-router": "^3.0.1"
   },

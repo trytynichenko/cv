@@ -54,12 +54,6 @@
     source-map "^0.5.0"
     trim-right "^1.0.1"
 
-"@babel/helper-annotate-as-pure@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fhelper-annotate-as-pure/-/helper-annotate-as-pure-7.0.0-beta.44.tgz#8ecf33cc5235295afcc7f160a63cab17ce7776f4"
-  dependencies:
-    "@babel/types" "7.0.0-beta.44"
-
 "@babel/helper-annotate-as-pure@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fhelper-annotate-as-pure/-/helper-annotate-as-pure-7.0.0-beta.46.tgz#4cd76d5c93409ea01d31be66395a3b98a372792e"
@@ -160,35 +154,15 @@
   dependencies:
     "@babel/types" "7.0.0-beta.46"
 
-"@babel/helper-plugin-utils@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fhelper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.44.tgz#9f590bc3ae6daa8a10b853233baa3e25d263751d"
-
 "@babel/helper-plugin-utils@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fhelper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.46.tgz#f630adbd9d645d0ba2e43f4955b4ad61f44ccdf4"
-
-"@babel/helper-regex@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fhelper-regex/-/helper-regex-7.0.0-beta.44.tgz#f5b6828c1e40f0b74ab6ed90abdd52be0c38a74e"
-  dependencies:
-    lodash "^4.2.0"
 
 "@babel/helper-regex@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fhelper-regex/-/helper-regex-7.0.0-beta.46.tgz#df3675cec700e062d823225c52830e012f32308f"
   dependencies:
     lodash "^4.2.0"
-
-"@babel/helper-remap-async-to-generator@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fhelper-remap-async-to-generator/-/helper-remap-async-to-generator-7.0.0-beta.44.tgz#8ad8c12a57444042ca281bdb16734841425938ad"
-  dependencies:
-    "@babel/helper-annotate-as-pure" "7.0.0-beta.44"
-    "@babel/helper-wrap-function" "7.0.0-beta.44"
-    "@babel/template" "7.0.0-beta.44"
-    "@babel/traverse" "7.0.0-beta.44"
-    "@babel/types" "7.0.0-beta.44"
 
 "@babel/helper-remap-async-to-generator@7.0.0-beta.46":
   version "7.0.0-beta.46"
@@ -229,15 +203,6 @@
   dependencies:
     "@babel/types" "7.0.0-beta.46"
 
-"@babel/helper-wrap-function@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fhelper-wrap-function/-/helper-wrap-function-7.0.0-beta.44.tgz#d128718a543f313264dff7cb386957e3e465c95d"
-  dependencies:
-    "@babel/helper-function-name" "7.0.0-beta.44"
-    "@babel/template" "7.0.0-beta.44"
-    "@babel/traverse" "7.0.0-beta.44"
-    "@babel/types" "7.0.0-beta.44"
-
 "@babel/helper-wrap-function@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fhelper-wrap-function/-/helper-wrap-function-7.0.0-beta.46.tgz#d0fb836516d8a38ab80df1b434e4b76015be9035"
@@ -271,14 +236,6 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
-"@babel/plugin-proposal-async-generator-functions@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-proposal-async-generator-functions/-/plugin-proposal-async-generator-functions-7.0.0-beta.44.tgz#b08d90cd0f6a82e11cb5ae64eee4fba7d0d7999e"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-    "@babel/helper-remap-async-to-generator" "7.0.0-beta.44"
-    "@babel/plugin-syntax-async-generators" "7.0.0-beta.44"
-
 "@babel/plugin-proposal-async-generator-functions@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fplugin-proposal-async-generator-functions/-/plugin-proposal-async-generator-functions-7.0.0-beta.46.tgz#395330d1d5d7fb76c33b7bd99750adeafc37c68c"
@@ -286,14 +243,6 @@
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
     "@babel/helper-remap-async-to-generator" "7.0.0-beta.46"
     "@babel/plugin-syntax-async-generators" "7.0.0-beta.46"
-
-"@babel/plugin-proposal-class-properties@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-proposal-class-properties/-/plugin-proposal-class-properties-7.0.0-beta.44.tgz#aff9192a883b41fdf1c73026b9105c92e931c55e"
-  dependencies:
-    "@babel/helper-function-name" "7.0.0-beta.44"
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-    "@babel/plugin-syntax-class-properties" "7.0.0-beta.44"
 
 "@babel/plugin-proposal-class-properties@7.0.0-beta.46":
   version "7.0.0-beta.46"
@@ -311,27 +260,12 @@
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
     "@babel/plugin-syntax-decorators" "7.0.0-beta.46"
 
-"@babel/plugin-proposal-export-namespace-from@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.44.tgz#00ac9d8a28addd88599d356f098894ae3d8ec1de"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-    "@babel/plugin-syntax-export-namespace-from" "7.0.0-beta.44"
-
 "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fplugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.46.tgz#81fa717faa390db694c2b2f241830a31d01f5170"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
     "@babel/plugin-syntax-export-namespace-from" "7.0.0-beta.46"
-
-"@babel/plugin-proposal-function-sent@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.44.tgz#9137c9cf082c73e1014d3ecfb8f741bf466d5093"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-    "@babel/helper-wrap-function" "7.0.0-beta.44"
-    "@babel/plugin-syntax-function-sent" "7.0.0-beta.44"
 
 "@babel/plugin-proposal-function-sent@7.0.0-beta.46":
   version "7.0.0-beta.46"
@@ -341,26 +275,12 @@
     "@babel/helper-wrap-function" "7.0.0-beta.46"
     "@babel/plugin-syntax-function-sent" "7.0.0-beta.46"
 
-"@babel/plugin-proposal-numeric-separator@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-proposal-numeric-separator/-/plugin-proposal-numeric-separator-7.0.0-beta.44.tgz#48c580cdd055cd11c8d3abc94829bc6f830e18fd"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-    "@babel/plugin-syntax-numeric-separator" "7.0.0-beta.44"
-
 "@babel/plugin-proposal-numeric-separator@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fplugin-proposal-numeric-separator/-/plugin-proposal-numeric-separator-7.0.0-beta.46.tgz#a34b9273073ca78646a553af1376d92f15191016"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
     "@babel/plugin-syntax-numeric-separator" "7.0.0-beta.46"
-
-"@babel/plugin-proposal-object-rest-spread@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.0.0-beta.44.tgz#b7817770cb9cf72f2e73ca6fcb83d61a87305259"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-    "@babel/plugin-syntax-object-rest-spread" "7.0.0-beta.44"
 
 "@babel/plugin-proposal-object-rest-spread@7.0.0-beta.46":
   version "7.0.0-beta.46"
@@ -369,13 +289,6 @@
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
     "@babel/plugin-syntax-object-rest-spread" "7.0.0-beta.46"
 
-"@babel/plugin-proposal-optional-catch-binding@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-proposal-optional-catch-binding/-/plugin-proposal-optional-catch-binding-7.0.0-beta.44.tgz#87928d30c9fab4803cdba29f9c1260c16bc5d30f"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-    "@babel/plugin-syntax-optional-catch-binding" "7.0.0-beta.44"
-
 "@babel/plugin-proposal-optional-catch-binding@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fplugin-proposal-optional-catch-binding/-/plugin-proposal-optional-catch-binding-7.0.0-beta.46.tgz#fda50deaab3272500a8a1c7088d7d55148f54048"
@@ -383,27 +296,12 @@
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
     "@babel/plugin-syntax-optional-catch-binding" "7.0.0-beta.46"
 
-"@babel/plugin-proposal-throw-expressions@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.44.tgz#1e54689dddc733e4986371b6818adcea161531a3"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-    "@babel/plugin-syntax-throw-expressions" "7.0.0-beta.44"
-
 "@babel/plugin-proposal-throw-expressions@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fplugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.46.tgz#eb259c73043050a51e40b53e74342763aa9b77b4"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
     "@babel/plugin-syntax-throw-expressions" "7.0.0-beta.46"
-
-"@babel/plugin-proposal-unicode-property-regex@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-proposal-unicode-property-regex/-/plugin-proposal-unicode-property-regex-7.0.0-beta.44.tgz#5efb0ddbe6635b4cb6674e961a16c28cef3cdb7f"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-    "@babel/helper-regex" "7.0.0-beta.44"
-    regexpu-core "^4.1.3"
 
 "@babel/plugin-proposal-unicode-property-regex@7.0.0-beta.46":
   version "7.0.0-beta.46"
@@ -413,23 +311,11 @@
     "@babel/helper-regex" "7.0.0-beta.46"
     regexpu-core "^4.1.3"
 
-"@babel/plugin-syntax-async-generators@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-syntax-async-generators/-/plugin-syntax-async-generators-7.0.0-beta.44.tgz#5cf7ec4256ddd7df62654171059188bee2b3addc"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-
 "@babel/plugin-syntax-async-generators@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fplugin-syntax-async-generators/-/plugin-syntax-async-generators-7.0.0-beta.46.tgz#b35149e02748922d8e39506b0ac001a27bf449ed"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
-
-"@babel/plugin-syntax-class-properties@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-syntax-class-properties/-/plugin-syntax-class-properties-7.0.0-beta.44.tgz#1e4e67ef6d7101a3a7d2ae5f60e580cbf4b7750f"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
 
 "@babel/plugin-syntax-class-properties@7.0.0-beta.46":
   version "7.0.0-beta.46"
@@ -443,23 +329,11 @@
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
 
-"@babel/plugin-syntax-dynamic-import@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.0.0-beta.44.tgz#1a7d009f892bc9799dcb22ace4bd24198eef8992"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-
 "@babel/plugin-syntax-dynamic-import@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fplugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.0.0-beta.46.tgz#651459c419d5ec0609a518370a417b8b47c52583"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
-
-"@babel/plugin-syntax-export-namespace-from@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.44.tgz#c75a1607a453b74fe83d3bccf442931a7021209b"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
 
 "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.46":
   version "7.0.0-beta.46"
@@ -467,23 +341,11 @@
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
 
-"@babel/plugin-syntax-function-sent@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-syntax-function-sent/-/plugin-syntax-function-sent-7.0.0-beta.44.tgz#2f1075e365d1df700cb54bc2434c72f5246f6526"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-
 "@babel/plugin-syntax-function-sent@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fplugin-syntax-function-sent/-/plugin-syntax-function-sent-7.0.0-beta.46.tgz#440dbaf6e0bcd60e0b47cd6dfa02e7d09baefb04"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
-
-"@babel/plugin-syntax-import-meta@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-syntax-import-meta/-/plugin-syntax-import-meta-7.0.0-beta.44.tgz#48d0af27aac06938542cc71abda014301af2dc13"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
 
 "@babel/plugin-syntax-import-meta@7.0.0-beta.46":
   version "7.0.0-beta.46"
@@ -497,23 +359,11 @@
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
 
-"@babel/plugin-syntax-numeric-separator@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.0.0-beta.44.tgz#f692545d4011e541bf948338b6e856cefb78e27e"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-
 "@babel/plugin-syntax-numeric-separator@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fplugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.0.0-beta.46.tgz#54c820bf32192378db78a68586e0d69bcf5f2943"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
-
-"@babel/plugin-syntax-object-rest-spread@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.0.0-beta.44.tgz#c37d271e4edf8a1b5d4623fb2917ba0f5a9da3b3"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
 
 "@babel/plugin-syntax-object-rest-spread@7.0.0-beta.46":
   version "7.0.0-beta.46"
@@ -521,23 +371,11 @@
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
 
-"@babel/plugin-syntax-optional-catch-binding@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.0.0-beta.44.tgz#c79ee93c371831b104bb0a1cc9c85ac5373af4f3"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-
 "@babel/plugin-syntax-optional-catch-binding@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fplugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.0.0-beta.46.tgz#701ba500cc154dd87c4d16a41fa858e9ffc6db89"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
-
-"@babel/plugin-syntax-throw-expressions@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fplugin-syntax-throw-expressions/-/plugin-syntax-throw-expressions-7.0.0-beta.44.tgz#e2d1c33690e62f82d61e5d0b07af3267732159bf"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
 
 "@babel/plugin-syntax-throw-expressions@7.0.0-beta.46":
   version "7.0.0-beta.46"
@@ -784,17 +622,6 @@
     invariant "^2.2.2"
     semver "^5.3.0"
 
-"@babel/preset-stage-2@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fpreset-stage-2/-/preset-stage-2-7.0.0-beta.44.tgz#1e435afc4d47acdee54fc6ba6a107c84eebf16f5"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-    "@babel/plugin-proposal-export-namespace-from" "7.0.0-beta.44"
-    "@babel/plugin-proposal-function-sent" "7.0.0-beta.44"
-    "@babel/plugin-proposal-numeric-separator" "7.0.0-beta.44"
-    "@babel/plugin-proposal-throw-expressions" "7.0.0-beta.44"
-    "@babel/preset-stage-3" "7.0.0-beta.44"
-
 "@babel/preset-stage-2@^7.0.0-0":
   version "7.0.0-beta.46"
   resolved "http://npm.office.local/@babel%2fpreset-stage-2/-/preset-stage-2-7.0.0-beta.46.tgz#326e4eba3049181f9ff7b0c50fa84f1a045956b1"
@@ -806,19 +633,6 @@
     "@babel/plugin-proposal-numeric-separator" "7.0.0-beta.46"
     "@babel/plugin-proposal-throw-expressions" "7.0.0-beta.46"
     "@babel/preset-stage-3" "7.0.0-beta.46"
-
-"@babel/preset-stage-3@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "http://npm.office.local/@babel%2fpreset-stage-3/-/preset-stage-3-7.0.0-beta.44.tgz#954e485be21bd76627aa449b15b9a748757ac440"
-  dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.44"
-    "@babel/plugin-proposal-async-generator-functions" "7.0.0-beta.44"
-    "@babel/plugin-proposal-class-properties" "7.0.0-beta.44"
-    "@babel/plugin-proposal-object-rest-spread" "7.0.0-beta.44"
-    "@babel/plugin-proposal-optional-catch-binding" "7.0.0-beta.44"
-    "@babel/plugin-proposal-unicode-property-regex" "7.0.0-beta.44"
-    "@babel/plugin-syntax-dynamic-import" "7.0.0-beta.44"
-    "@babel/plugin-syntax-import-meta" "7.0.0-beta.44"
 
 "@babel/preset-stage-3@7.0.0-beta.46":
   version "7.0.0-beta.46"
@@ -1417,15 +1231,15 @@ async@2.1.4:
   dependencies:
     lodash "^4.14.0"
 
-async@^1.4.0, async@^1.5.2:
-  version "1.5.2"
-  resolved "http://npm.office.local/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
-
-async@^2.1.2, async@^2.1.4, async@^2.3.0, async@^2.4.1:
+async@2.6.0, async@^2.1.2, async@^2.1.4, async@^2.3.0, async@^2.4.1:
   version "2.6.0"
   resolved "http://npm.office.local/async/-/async-2.6.0.tgz#61a29abb6fcc026fea77e56d1c6ec53a795951f4"
   dependencies:
     lodash "^4.14.0"
+
+async@^1.4.0, async@^1.5.2:
+  version "1.5.2"
+  resolved "http://npm.office.local/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -1710,6 +1524,10 @@ balanced-match@^1.0.0:
 base64-js@^1.0.2:
   version "1.3.0"
   resolved "http://npm.office.local/base64-js/-/base64-js-1.3.0.tgz#cab1e6118f051095e58b5281aea8c1cd22bfc0e3"
+
+base64url@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.office.local/base64url/-/base64url-2.0.0.tgz#eac16e03ea1438eff9423d69baa36262ed1f70bb"
 
 base@^0.11.1:
   version "0.11.2"
@@ -3890,6 +3708,14 @@ fs-extra@4.0.1:
     jsonfile "^3.0.0"
     universalify "^0.1.0"
 
+fs-extra@^4.0.2:
+  version "4.0.3"
+  resolved "http://npm.office.local/fs-extra/-/fs-extra-4.0.3.tgz#0d852122e5bc5beb453fb028e9c0c9bf36340c94"
+  dependencies:
+    graceful-fs "^4.1.2"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
 fs-minipass@^1.2.5:
   version "1.2.5"
   resolved "http://npm.office.local/fs-minipass/-/fs-minipass-1.2.5.tgz#06c277218454ec288df77ada54a03b8702aacb9d"
@@ -3999,6 +3825,18 @@ getpass@^0.1.1:
   resolved "http://npm.office.local/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
   dependencies:
     assert-plus "^1.0.0"
+
+gh-pages@^1.1.0:
+  version "1.1.0"
+  resolved "http://npm.office.local/gh-pages/-/gh-pages-1.1.0.tgz#738134d8e35e5323b39892cda28b8904e85f24b2"
+  dependencies:
+    async "2.6.0"
+    base64url "^2.0.0"
+    commander "2.11.0"
+    fs-extra "^4.0.2"
+    globby "^6.1.0"
+    graceful-fs "4.1.11"
+    rimraf "^2.6.2"
 
 glob-base@^0.3.0:
   version "0.3.0"
@@ -4111,7 +3949,7 @@ globule@^1.0.0:
     lodash "~4.17.4"
     minimatch "~3.0.2"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
+graceful-fs@4.1.11, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "http://npm.office.local/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
@@ -5377,6 +5215,12 @@ json5@^0.5.0, json5@^0.5.1:
 jsonfile@^3.0.0:
   version "3.0.1"
   resolved "http://npm.office.local/jsonfile/-/jsonfile-3.0.1.tgz#a5ecc6f65f53f662c4415c7675a0331d0992ec66"
+  optionalDependencies:
+    graceful-fs "^4.1.6"
+
+jsonfile@^4.0.0:
+  version "4.0.0"
+  resolved "http://npm.office.local/jsonfile/-/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
   optionalDependencies:
     graceful-fs "^4.1.6"
 
