@@ -8,7 +8,7 @@ describe('Home page test', () => {
   });
 
   it('Headline H1 exist', () => {
-    cy.contains('h1', 'Hi');
+    cy.contains('h1', 'Hey there');
   });
 
   it('Headline H2 exist', () => {
