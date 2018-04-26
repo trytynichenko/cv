@@ -2,6 +2,6 @@
 
 exports[`Header.vue matches snapshot 1`] = `
 <header class="header block">
-    <!---->
+  <!---->
 </header>
 `;

@@ -2,6 +2,6 @@
 
 exports[`Content.vue matches snapshot 1`] = `
 <div class="content">
-    <p><strong>html string</strong></p>
+  <p><strong>html string</strong></p>
 </div>
 `;
