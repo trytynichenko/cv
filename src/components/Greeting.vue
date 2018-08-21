@@ -3,10 +3,9 @@
     <div class="title">
       <h1>Hey there,<img src="../assets/images/v.png"/></h1>
       <h2>
-        My name is <strong>{{ name }}</strong> and I am a Front-end (React) software engineer.
-        I have {{ experience }}+ years of experience in e-commerce building beautiful interfaces
-        and providing responsive front-end development and WordPress websites for the clients
-        from all over the world. As a team lead, I take the responsibility for providing guidance,
+        My name is <strong>{{ name }}</strong> and I am a Software Engineer.
+        I have {{ experience }}+ years of experience in software development.
+        As a team lead, I take the responsibility for providing guidance,
         instruction, direction, and leadership to the team for the purpose of reaching the business
         goals and achieving successful results.
       </h2>

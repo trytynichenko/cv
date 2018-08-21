@@ -48,6 +48,11 @@ export default {
         type: 'Lines',
         data: [
           {
+            title: 'Master Of Code Global',
+            time: 'May 2018 - present',
+            description: 'Team Lead, JavaScript Developer',
+          },
+          {
             title: 'Netvertise Ltd.',
             time: 'Nov 2015 - Apr 2018',
             description: 'Creative Director, Front-End Lead',
@@ -102,12 +107,11 @@ export default {
           {
             label: 'Back end',
             items: [
-
+              { name: 'Node.js' },
               { name: 'WordPress' },
               { name: 'Magento' },
               { name: 'Apache / Nginx' },
               { name: 'MySQL' },
-              { name: 'Node' },
               { name: 'REST' },
             ],
           },
@@ -123,14 +127,14 @@ export default {
             ],
           },
           {
-            label: 'Tools',
+            label: 'Other',
             items: [
+
+              { name: 'Kubernetes' },
+              { name: 'Docker' },
               { name: 'Webpack' },
-              { name: 'Gulp' },
-              { name: 'Grunt' },
+              { name: 'Microsoft Azure' },
               { name: 'Git' },
-              { name: 'Sentry' },
-              { name: 'Kibana' },
             ],
           },
         ],
