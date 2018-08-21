@@ -49,7 +49,7 @@ export default {
         data: [
           {
             title: 'Master Of Code Global',
-            time: 'May 2018 - present',
+            time: 'From May 2018',
             description: 'Team Lead, JavaScript Developer',
           },
           {
