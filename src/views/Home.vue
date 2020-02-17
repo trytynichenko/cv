@@ -30,17 +30,11 @@ export default {
         name: 'Intro',
         type: 'Content',
         data: [
-          'This online version of my resume was created as an experiment to learning Vue.js from scratch. For development, I\'ve used manually configured vue-cli with the following features: Router, SCSS/SASS Pre-processors, ESLint + Airbnb config, Unit Testing on Jest and E2E Testing on Cypress.',
+          'I have a solid background in the design and implementation of the enterprise and business solutions with the external services integrations, good expertise in creating enterprise integration solutions and deep understanding of messaging platforms. Additional experience includes creating integrations with different CRMs and other 3rd-party solutions. Excellent problem-solving skills and interpersonal skills.',
+          'In my day-to-day job, I am focused on building valuable relationships with the customers providing them with the solutions that make their businesses grow and on supervising, coaching and mentoring junior staff and conducting performance reviews.',
         ],
         html: [
           'The source code is available on <a href="https://github.com/trytynichenko/cv" target="_blank">GitHub</a>.',
-        ],
-      },
-      {
-        name: 'Personal Goal',
-        type: 'Content',
-        data: [
-          'As a Developer, I want to make all users happy with the service providing the solution to their issues, thus, helping the business grow and make more profit.',
         ],
       },
       {
@@ -50,7 +44,17 @@ export default {
           {
             title: 'Master Of Code Global',
             time: 'From May 2018',
-            description: 'Team Lead, JavaScript Developer',
+            description: 'Team Leader / Solution Architect',
+          },
+          {
+            title: 'LivePerson',
+            time: 'From September 2019',
+            description: 'Vendor Employee - Solution Architect',
+          },
+          {
+            title: 'Adobe',
+            time: 'Sept 2018 - Feb 2019',
+            description: 'Vendor Employee - Tech Lead',
           },
           {
             title: 'Netvertise Ltd.',
@@ -94,84 +98,41 @@ export default {
         type: 'List',
         data: [
           {
-            label: 'Languages',
             items: [
-              { name: 'JavaScript (ES6)' },
-              { name: 'PHP' },
-              { name: 'HTML' },
-              { name: 'CSS/Sass' },
-              { name: 'SQL' },
-              { name: 'Bash' },
+              { name: 'JavaScript' },
+              { name: 'Node.js / PHP' },
+              { name: 'HTML / CSS' },
+              { name: 'SQL / NoSQL' },
+              { name: 'Express' },
             ],
           },
           {
-            label: 'Back end',
             items: [
-              { name: 'Node.js' },
-              { name: 'WordPress' },
-              { name: 'Magento' },
-              { name: 'Apache / Nginx' },
-              { name: 'MySQL' },
-              { name: 'REST' },
+              { name: 'React / Redux' },
+              { name: 'Vue.js / Vuex' },
+              { name: 'Github / GitLab' },
+              { name: 'GitFlow' },
+              { name: 'Agile' },
             ],
           },
           {
-            label: 'Front end',
             items: [
-              { name: 'React + Redux' },
-              { name: 'Vue.js + Vuex' },
-              { name: 'Mustache' },
-              { name: 'jQuery' },
-              { name: 'Jest' },
-              { name: 'Cypress.io' },
+              { name: 'Docker / Kubernetes' },
+              { name: 'Grafana / Prometeus' },
+              { name: 'Jenkins' },
+              { name: 'JFrog' },
+              { name: 'Splunk' },
             ],
           },
           {
             label: 'Other',
             items: [
 
-              { name: 'Kubernetes' },
-              { name: 'Docker' },
-              { name: 'Webpack' },
-              { name: 'Microsoft Azure' },
-              { name: 'Git' },
-            ],
-          },
-        ],
-      },
-      {
-        type: 'List',
-        data: [
-          {
-            label: 'Management',
-            items: [
-              { name: 'Jira' },
-              { name: 'InVision' },
-              { name: 'XMind' },
-            ],
-          },
-          {
-            label: 'CI/CD',
-            items: [
-              { name: 'Jenkins' },
-              { name: 'GitLab' },
-              { name: 'Capistrano' },
-            ],
-          },
-          {
-            label: 'Methodology',
-            items: [
-              { name: 'Scrum' },
-              { name: 'Kanban' },
-              { name: 'GitFlow' },
-            ],
-          },
-          {
-            label: 'Design',
-            items: [
-              { name: 'Adobe Photoshop' },
-              { name: 'Adobe Illustrator' },
-              { name: 'Adobe After Effects' },
+              { name: 'Microsoft Azure / AWS' },
+              { name: 'LUIS / Dialog Flow' },
+              { name: 'Microsoft Bot Framework' },
+              { name: 'Jira / Trello' },
+              { name: 'Salesforce' },
             ],
           },
         ],
@@ -211,6 +172,14 @@ export default {
         type: 'Lines',
         data: [
           {
+            title: 'Olga Grom | PMI-ACP, PMI Member, Senior Project Manager at Master Of Code Global',
+            description: '"Leo has exceptional leadership skills and technical expertise that helped us to drive very important initiatives through POC stage to the successful delivery. We have worked together on high profile projects and every time it was a success and the customers came back with more opportunities. He has contributed a lot both to the architecture design, tech leadership and customer tech support. He has a rare combination of the business acumen together with the technical knowledge what makes him a valuable team member. Happy to have him in my team."',
+          },
+          {
+            title: 'Santosh Hanumansetti | Computer Scientist at Adobe',
+            description: '"It’s rare that you come across standout talent like Leo. I had the pleasure of working with Leo for almost a year at Adobe. I found him to have great expertise and profound knowledge on Azure/AWS DevOps, docker and Kubernetes. He brought in a culture of automating every piece of infrastructure along with monitoring which is critical for any production environment. Leo is result driven, experienced and efficient team player. Deliver results and move on. I absolutely would recommend him to any Company."',
+          },
+          {
             title: 'Sasha Miller | Netvertise Ltd.',
             description: '"Leo is an excellent and driven employee whom I had the pleasure of working with at Netvertise Ltd. on a number of design and technical projects. He is able to tackle complicated issues with patience, understanding and is an efficient team leader. Leo is pleasant to work with and I highly recommend him."',
           },
@@ -230,6 +199,15 @@ export default {
             title: 'Joahim Furuseth | Pingbull LLC',
             description: '"Leo is a dedicated developer, and I have had the privilege of working with him across several projects. I have found Leo to be structured and easy to work with. His skills in WordPress development is just amazing. When working on a project Leo is also creative and comes with his own ideas to the projects, this is very useful for me as a project manager."',
           },
+        ],
+      },
+      {
+        type: 'Content',
+        data: [
+          'I am an open-minded positive individual who shapes new ideas with the right values and bright vision. If you have any questions or interested in the partnership, I will be happy to talk:',
+        ],
+        html: [
+          'by email <a href="mailto:leo@trytynichenko.com">leo@trytynichenko.com</a> or <a href="https://www.linkedin.com/in/trytynichenko/" target="_blank">LinkedIn</a>',
         ],
       },
     ],

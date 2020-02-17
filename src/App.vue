@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <main-header/>
+    <!--<main-header/>-->
     <transition name="jump" mode="out-in">
       <router-view/>
     </transition>

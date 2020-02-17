@@ -3,11 +3,9 @@
     <div class="title">
       <h1>Hey there,<img src="../assets/images/v.png"/></h1>
       <h2>
-        My name is <strong>{{ name }}</strong> and I am a Software Engineer.
-        I have {{ experience }}+ years of experience in software development.
-        As a team lead, I take the responsibility for providing guidance,
-        instruction, direction, and leadership to the team for the purpose of reaching the business
-        goals and achieving successful results.
+        My name is <strong>{{ name }}</strong>. I am a Tech Lead and Solutions Architect with
+        a proven track record of the implemented solutions for enterprise and brands and a
+        good knowledge of Backend, Frontend, and DevOps processes.
       </h2>
     </div>
   </div>
