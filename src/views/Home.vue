@@ -34,7 +34,7 @@ export default {
           'In my day-to-day job, I am focused on building valuable relationships with the customers providing them with the solutions that make their businesses grow and on supervising, coaching and mentoring junior staff and conducting performance reviews.',
         ],
         html: [
-          'The source code is available on <a href="https://github.com/trytynichenko/cv" target="_blank">GitHub</a>.',
+          'PS: Source code related to this CV is available at <a href="https://github.com/trytynichenko/cv" target="_blank">GitHub</a>.',
         ],
       },
       {
@@ -125,9 +125,7 @@ export default {
             ],
           },
           {
-            label: 'Other',
             items: [
-
               { name: 'Microsoft Azure / AWS' },
               { name: 'LUIS / Dialog Flow' },
               { name: 'Microsoft Bot Framework' },
@@ -202,6 +200,7 @@ export default {
         ],
       },
       {
+        name: 'Contact',
         type: 'Content',
         data: [
           'I am an open-minded positive individual who shapes new ideas with the right values and bright vision. If you have any questions or interested in the partnership, I will be happy to talk:',
