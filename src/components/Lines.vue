@@ -6,6 +6,9 @@
         <div class="line__date">{{ item.time }}</div>
       </div>
       <div class="line__description">{{ item.description }}</div>
+      <div class="line__duties" v-for="(line, i) in item.duties" :key="i" v-html="line">
+        {{ line }}
+      </div>
     </div>
   </div>
 </template>
