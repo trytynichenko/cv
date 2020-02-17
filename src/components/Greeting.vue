@@ -3,9 +3,9 @@
     <div class="title">
       <h1>Hey there,<img src="../assets/images/v.png"/></h1>
       <h2>
-        My name is <strong>{{ name }}</strong>. I am a Tech Lead and Solutions Architect with
-        a proven track record of the implemented solutions for enterprise and brands and a
-        good knowledge of Backend, Frontend, and DevOps processes.
+        My name is <strong>{{ name }}</strong>. I am a Team Lead and Solutions Architect with
+        a proven track record of the implemented solutions for enterprise
+        and brands and a good knowledge of Backend, Frontend, and DevOps processes.
       </h2>
     </div>
   </div>
