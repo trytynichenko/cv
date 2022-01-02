@@ -187,7 +187,7 @@ export default {
           {
             items: [
               { name: 'Docker / Kubernetes' },
-              { name: 'Grafana / Prometeus' },
+              { name: 'Grafana / Prometheus' },
               { name: 'Jenkins' },
               { name: 'JFrog' },
               { name: 'Splunk' },
